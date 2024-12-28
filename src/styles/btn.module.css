@@ -1,0 +1,41 @@
+.button{
+    position: relative;
+    width: 200px;
+    height: 36px;
+    left: 603px;
+    top: 140px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 48px 16px 48px;
+    border-radius: 4px;
+    background: rgb(219, 68, 68);
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+
+.button:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+.line{
+    position: relative;
+    left: 125px;
+    top: 140px;
+    width: 1170px;
+    height: 0;
+    margin-top: 60px;
+    transform: rotate(180.00deg);
+    border: 0.5px solid rgb(0, 0, 0);
+    opacity: 0.3;
+}

@@ -1,0 +1,89 @@
+.container{
+    width: 1170px;
+    height: 518px;
+    margin-top: 332px;
+    margin-left: 130px;
+}
+
+.data{
+    width: 1170px;
+    height: 108px;
+    display: flex;
+    flex-direction: row;
+    gap: 611px;
+}
+
+.text{
+    width: 400px;
+    height: 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tone{
+    width: 125px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    color: rgb(71, 180, 134);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: left;
+}
+
+.kub{
+    width: 20px;
+    height: 40px;
+    border-radius: 4px;
+    background: rgb(217, 217, 217);
+}
+
+.ttwo{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 4%;
+    text-align: left;
+    margin-top: -36px;
+}
+
+.btn{
+    width: 159px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: rgb(219, 68, 68);
+    margin-top: 52px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+}
+.btn:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.products{
+    width: 1170px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap:30px;
+
+}
