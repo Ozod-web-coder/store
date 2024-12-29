@@ -1,22 +1,9 @@
 import styles from '../styles/banner.module.css'
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import { FaApple } from "react-icons/fa";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export function Banner(){
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        adaptiveHeight: true,
-        useCSS: true,
-        useTransform: true,
-        lazyLoad: false,
-    };
+
     return (
         <>
             <div className={styles.banner}>
